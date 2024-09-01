@@ -25,4 +25,12 @@
   - comment
 8. Heading, Paragraphs, Line Breaks, Horizontal rules
 9. Semantic HTML VS Non-Semantic HTML
+    - Semantic Tag: Header, Footer, main, form, table
+    - non-semantic tag: div, span
+10. Text Formatting tags
+11. List
+12. Link
+13. Table
+14. Form
+15. Deploy
    
