@@ -12,3 +12,15 @@
     - Code editor - vs code
     - Browser - goggle chrome/any other
     - Version Control - git/github
+    - VS code Extension: live server prettier code formatter,
+
+6. Basic structure of HTML
+  - Head
+  - Body
+7. Basic Tag, styling, debugging
+  - Tag? types of tags
+  - attribute
+  - element, content
+  - debugging
+
+   
