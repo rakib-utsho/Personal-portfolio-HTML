@@ -6,11 +6,112 @@
     <title>My Portfolio</title>
 </head>
 <body>
+
+    <!-- Section: navbar -->
+     <nav>
+        <ul>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+     </nav>
+    
     <!-- Section: Into -->
-    <header>
+    <header id="intro">
         <h1>Md. Rakibul Islam</h1>
-        <p>Full Stack Web Developer</p>
+        <p><em>Full Stack Web Developer</em></p>
+        <img src="images/IMG_20191211_164617.jpg" alt="profile image" height="150px">
         <hr>
     </header>
+
+    <!-- Section: about me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Experience:</strong> 2 years experience in web development and designing</p>
+        <p><strong>Education:</strong> Bachelor Degree in Computer Science and Engineering</p>
+    </section>
+
+    <!-- section: Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <!-- <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </li>
+            <li>PHP</li>
+        </ul>
+       <dl>    definition list 
+            <dt>HTML</dt>
+            <dd>HTML is a Markup Language</dd>
+        </dl> -->
+
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Technology</th>               <th>Proficiency</th>      
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>HTML</td>               <td>Expert</td>
+                </tr>
+                <tr><td>CSS</td>               <td>Expert</td>
+                </tr>
+                <tr><td>JavaScript</td>               <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li><a href="https://github.com/rakib-utsho/Personal-portfolio-HTML" target="_blank"> Portfolio Website</a></li> 
+            <li>Blog Website</li>
+            <li>Restaurant Website</li>
+        </ol>
+    </section>
+
+    <!-- section contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <div>
+                <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="10" rows="10"></textarea>
+            </div>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <!-- Section: Footer -->
+    <footer>
+        <p>&copy; reserved by Rakib 2024</p>
+        <a href="tel:01707934655">callme</a>
+        <a href="mailto:rk@p.com">mail</a>
+    </footer>
+
+
 </body>
 </html>
