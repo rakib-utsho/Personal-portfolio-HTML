@@ -22,5 +22,7 @@
   - attribute
   - element, content
   - debugging
-
+  - comment
+8. Heading, Paragraphs, Line Breaks, Horizontal rules
+9. Semantic HTML VS Non-Semantic HTML
    
