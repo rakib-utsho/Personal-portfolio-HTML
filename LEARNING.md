@@ -1,5 +1,7 @@
 # HTML Learnings
 
+
+<!-- Basic HTML -->
  1. How website works?  ✅
   - Client-Server model
   - Http request and response
@@ -38,8 +40,33 @@
     - absolute link vs relative link
     - a tag, attributes: herf, target, title
 13. Basic Table ✅
-14. Basic Form  
-15. Deploy 
+14. Basic Form  ✅
+15. Deploy ✅
 16. Navigation Bar ✅
 17. image ✅
-   
+
+<!--  -->
+
+<!-- Intermediate HTML -->
+
+1. Meta tag & SEO ✅
+
+2. Adding font awesome icons and google font ✅
+
+3. advance table ✅
+
+4. advance form ✅
+
+5. form data send to your email ✅
+
+6. Multimedia ✅
+
+7. HTML 5 Elements ✅
+    - form
+    - footer
+    - header
+    - map
+    etc, resource learning: https://www.tutorialrepublic.com/html-reference/html5-tags.php
+
+
+# Advance HTML
