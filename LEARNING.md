@@ -70,3 +70,33 @@
 
 
 # Advance HTML
+
+- more advance form - <input type="color/range">
+- datalist, fieldset, legend
+- web accessibility
+  - use semantic tag
+  -use lang attribute
+  -use heading tags in order (h1 ->h2->h3)
+  - use alt attribute for image
+  - contrast ratio
+  - use meaningful text
+  - label + input
+- HTML5 API
+- HTML Templates and web components
+- Learning Resources
+- Sources for symbols, icon etc
+
+# CSS Learning
+
+- Introduction to CSS
+- Way to add CSS - Inline, Internal, External
+- CSS syntax, selectors -
+- CSS3 variable
+- CSS Specificity
+- Typography - font, text, color, icon
+- Box Model - height, width, margin, border, padding, content
+- Design a Card
+
+# Intermediate CSS
+- Background Properties
+- Basic Layout - Float, Positioning, flex, grid
