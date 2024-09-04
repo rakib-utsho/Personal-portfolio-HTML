@@ -51,6 +51,7 @@ button{
     margin: 0.8rem 0;
     border-radius: 0.5rem;
     cursor: pointer;
+
 }
 button:hover{
     background-color: #305732;
@@ -73,10 +74,16 @@ header{
     color:var(--secondary-color);
     text-align: center;
     padding: 1.5rem 0;
+
+    position: sticky;
+    top: 0;
+
 }
 nav ul{
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li{
@@ -96,6 +103,42 @@ main{
     margin: auto;
     padding: 1.2rem;
 }
+.intro{
+    background-image: url(images/cover.jpg);
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro__title{
+    font-size: 3rem;
+    background-color: rgba(157, 11, 38, 0.235);
+    padding: 0.5rem;
+    border-radius: 1.5rem 0rem 1.5rem 0;
+}
+.intro__description{
+    color: white;
+    font-size: 1.5rem;
+
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
@@ -109,6 +152,17 @@ table, th, td{
 th{
     background-color: #f2f2f2;
 }
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2{
+    text-align: center;
+}
 /* main ends here */
 
 /* footer stars here */
@@ -119,13 +173,26 @@ footer{
     width: 100%;
     padding: 0.5rem 0;
     bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
 
+.social-media h3{
+    text-align: center;
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
 }
 
 .social-media a {
     color: var(--secondary-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    margin: 0rem 0.5rem;
+    
 }
 /* footer ends here */

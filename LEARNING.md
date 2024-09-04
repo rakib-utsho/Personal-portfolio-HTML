@@ -99,4 +99,6 @@
 
 # Intermediate CSS
 - Background Properties
-- Basic Layout - Float, Positioning, flex, grid
+- Basic Layout - display property- inline block, inline-block Float, Positioning, flex, grid
+- transition
+- animation
